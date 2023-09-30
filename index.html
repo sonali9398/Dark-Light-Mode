@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav><h1>Welcome!!</h1>
+            <div class="button">
+                <div class="center">
+                    <input type="checkbox"/>
+                </div>
+            </div>
+    </nav>
+    <h2>Animated Dark and Light Mode Button</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias suscipit molestiae architecto assumenda qui, possimus labore velit repudiandae esse ratione iste aliquam alias, accusantium officia modi. Possimus itaque ipsum dignissimos.</p>
+    <h2>Bye!!</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa dignissimos dicta vero hic fugit vitae aliquam quibusdam sit, reiciendis neque labore porro cupiditate sunt assumenda explicabo optio error nesciunt? Fugit.</p>
+
+    <script>
+        $(document).ready(function(){
+            $('input').click(function(){
+                $('body').toggleClass('active');
+                $('.button').toggleClass('check');
+            })
+        })
+    </script>
+
+</body>
+</html>
